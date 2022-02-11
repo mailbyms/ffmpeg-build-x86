@@ -9,7 +9,8 @@
 >
 > mingw 会继承 msys 的环境变量。（分别打开 msys2.exe 和 mingw64, 运行 echo $PATH 可知）
 
-msys 可以直接用 pacman 安装 gcc ，但生成的程序会是依赖 msys-2.0.dll，所以要安装 mingw 的 gcc 是否使用 MSVC 的 link.exe，没有影响
+msys 可以直接用 pacman 安装 gcc ，但生成的程序会依赖 msys-2.0.dll，所以要安装 mingw 的 gcc 。
+是否使用 MSVC 的 link.exe，没有影响
 
 
 
